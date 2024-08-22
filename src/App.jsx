@@ -11,7 +11,7 @@ function App() {
     <>
       <HelloWorldClass/>
       <HelloWorldFunction/> 
-      <h1>Vite + React</h1>
+      <h1>Hello from Kenil Savani</h1>
     </>
   )
 }
