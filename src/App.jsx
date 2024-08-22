@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 import './App.css'
-import HelloWorldClass from './class'
-import HelloWorldFunction from './function'
+import HelloWorldClass from '../components/class'
+import HelloWorldFunction from '../components/function'
 
 function App() {
   const [count, setCount] = useState(0)
