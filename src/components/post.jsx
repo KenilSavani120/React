@@ -28,7 +28,8 @@ const Post = () => {
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredData.slice(indexOfFirstPost, indexOfLastPost);
 
-  const totalPages = Math.ceil(filteredData.length / postsPerPage);
+  const totalPages = Math.ceil(filteredData.length / postsPerPage); 
+  // math.ceil is for roundup value like 2.5 = 3
 
   const handlePageClick = (data) => {
     setCurrentPage(data.selected);
